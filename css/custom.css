@@ -1,0 +1,216 @@
+p{
+    margin:0;
+    padding:0;
+}
+.headerwrap{
+    height:30vw;
+    background: #c0e6f0;
+    padding-top: 40px;
+    -webkit-box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+    box-shadow: 0px 11px 8px -8px rgba(0,0,0,0.21);
+}
+.navbgColor{
+    background: #faee84;
+}
+
+.card {
+    margin: 20px auto 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    -webkit-box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+    box-shadow: 5px 10px 8px -8px rgba(0,0,0,0.21);
+    width: 18rem;
+}
+.card a {
+    text-align: left;
+}
+.card-ul{
+    list-style: none;   
+    margin: 0;
+    padding: 0;
+}
+.card-ul li{
+    display: inline-block;
+}
+.navbar{
+    -webkit-box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+    box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.21);
+}
+
+.red{
+    border: solid 1px red;
+}
+h6{
+    display:block;
+}
+h1{
+    font-weight: 100;
+    font-size: 4vw;
+}
+
+.zealandImg{
+    max-width: 20vw;
+}
+.footer-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-ul div p, .footer-ul div a{
+    margin-right: 10px;
+}
+footer h6, a{
+    display: block;
+    text-align: center;
+}
+footer .container{
+    margin-bottom:100px;
+}
+footer .container .row div{
+    margin-bottom: 30px;
+}
+.nestedLi{
+    text-align: center;
+}
+.nestedLi a{
+    display: inline-block;
+}
+nav .container a{
+    Color:black;
+}
+nav .container a:hover{
+    text-decoration: none;
+}
+@media (min-width: 300px) {
+    /*Header Region*/
+    .peteImgBox{
+        display: block;
+    }
+    .hdr-img{
+        max-width: 30vw;
+        max-height: 250px;
+    }   
+    h6{
+        font-size: 3vw;
+    }
+    .headerText > div{
+        text-align: center!important;
+        display: block;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    .headerwrap{
+        height:80vw;
+    }
+    .zealandImg{
+        max-width: 60vw;
+    }
+    /* /Header Region*/
+    .mainWrap{
+        padding: 20px 40px 20px 40px;
+    }  
+
+}
+
+@media (min-width: 576px) {
+    .peteImgBox{
+        display: block;
+    }
+    .hdr-img{
+        max-width: 15vw;
+        max-height: 250px;
+    }
+    h6{
+        font-size: 2vw;
+    
+    }
+    .headerText > div{
+        text-align: left!important;
+        display: block;
+    }
+    .headerwrap{
+        height:45vw;
+    }
+    .zealandImg{
+        max-width: 55vw;
+    }
+    .card{
+        width: 26rem;
+    }
+
+  }
+@media (min-width: 768px) { 
+    .hdr-img{
+        max-width: 16vw;
+        max-height: 250px;
+    }
+    h6{
+        font-size: 1.4vw;
+    
+    }
+    .zealandImg{
+        max-width: 35vw;
+    }
+    .headerwrap{
+        height:40vw;
+    }
+    .card{
+       width: 30rem;
+    }
+    .navImg img{
+        height: 30px;
+    }
+ }
+@media (min-width: 992px) {  
+    .hdr-img{
+        max-width: 16vw;
+        max-height: 250px;
+    }
+    h6{
+        font-size: 1.4vw;
+    
+    }
+    .headerwrap{
+        height:30vw;
+    }
+    .navImg img{
+        height: 30px;
+    }
+}
+@media (min-width: 1200px) { 
+    .hdr-img{
+        max-width: 25vw;
+        max-height: 250px;
+    }
+    h6{
+        font-size: 1.2vw;
+    
+    }
+    .card{
+        width: 20rem;
+    }
+    .navImg img{
+        height: 30px;
+    }
+}
+@media (min-width: 1500px) { 
+    h6{
+        font-size: 1.2em;
+    
+    }
+    h1{
+        font-size: 4.5em;
+    
+    }
+    .headerwrap{
+        height:500px;
+    }
+    .navImg img{
+        height: 30px;
+    }
+}
